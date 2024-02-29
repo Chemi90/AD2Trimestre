@@ -16,6 +16,12 @@ body {
     text-align: left; /* Alineación a la izquierda */
 }
 
+.question img {
+    max-width: 100%; /* Hace que la imagen no exceda el ancho de su contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener las proporciones */
+    object-fit: contain; /* Asegura que la imagen se ajuste al contenedor sin recortarse */
+  }  
+
 h1 {
     color: #333;
     text-align: center; /* Centrar solo el título */
